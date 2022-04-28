@@ -649,6 +649,10 @@ public class DBTablePrinter {
             case Types.TINYINT:
             case Types.SMALLINT:
             case Types.INTEGER:
+        /*
+        *   add numeric type
+        */
+            case Types.NUMERIC:    
                 return CATEGORY_INTEGER;
 
             case Types.REAL:
